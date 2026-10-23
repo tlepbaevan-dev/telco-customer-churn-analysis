@@ -119,6 +119,5 @@ The analysis identifies customer segments associated with higher churn and estab
 
 ## Dataset Source
 
-IBM Telco Customer Churn dataset, available through Kaggle.
+The dataset is used for educational and analytical purposes.
 
-The dataset is used
