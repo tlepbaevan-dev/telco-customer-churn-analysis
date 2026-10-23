@@ -75,14 +75,14 @@ Logistic Regression achieved the highest ROC-AUC and F1-score on the initial val
 
 ## 8. Overfitting Analysis
 
-Random Forest models with different maximum tree depths were evaluated using five-fold stratified cross-validation.
+Random Forest performance was compared on the training and validation sets.
 
-| Maximum depth | Mean F1 | Mean ROC-AUC |
-|---:|---:|---:|
-| 7 | 0.568 | 0.847 |
-| 10 | 0.579 | 0.842 |
+| Dataset | Accuracy | F1-score | ROC-AUC |
+|---|---:|---:|---:|
+| Train | 0.873 | 0.741 | 0.953 |
+| Validation | 0.803 | 0.584 | 0.841 |
 
-Depth 7 achieved a higher mean ROC-AUC, while depth 10 achieved a slightly higher mean F1-score. This illustrates the trade-off between model complexity and predictive performance.
+The performance gap, particularly in F1-score and ROC-AUC, suggests that the Random Forest model may be overfitting the training data. Its validation performance remains reasonable, but the results indicate that model generalization could be improved.
 
 ## 9. Business Insights & Recommendations
 
